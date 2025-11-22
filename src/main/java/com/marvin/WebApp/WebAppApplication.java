@@ -10,7 +10,7 @@ public class WebAppApplication {
 
 	public static void main(String[] args) {
 
-           ConfigurableApplicationContext context = SpringApplication.run(WebAppApplication.class, args);
+            SpringApplication.run(WebAppApplication.class, args);
 	}
 
 }
