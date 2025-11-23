@@ -35,4 +35,8 @@ public class ProductController {
     public   Product updateProduct( @RequestBody Product product){
          return  service.updateProduct(product);
     }
+    @DeleteMapping("/product")
+    public void deleteProduct(@RequestBody Product product){
+        service.deleteProductByCont(product);
+    }
 }
