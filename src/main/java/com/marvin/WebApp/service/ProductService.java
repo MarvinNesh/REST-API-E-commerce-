@@ -17,7 +17,8 @@ public class ProductService {
     }
     public Product getProductById(Integer proID) {
         return productRepo.findById(proID)
-                .orElseThrow(() -> new RuntimeException("Product not found with ID: " + proID));
+                .orElseThrow(() ->  new ProductNotFoundException("Product not found with ID: " + proID));
+
     }
 
     public Product addProduct(Product product){
