@@ -15,13 +15,22 @@ public class ProductService {
         return  productRepo.findAll() ;
 
     }
-    public Product getProductById(Integer proID){
-        return productRepo.findById(proID).get();
+    public Product getProductById(Integer proID) {
+        return productRepo.findById(proID)
+                .orElseThrow(() -> new RuntimeException("Product not found with ID: " + proID));
     }
+
     public Product addProduct(Product product){
         return productRepo.save(product);
     }
     public  Product updateProduct(Product product){
         return productRepo.save(product);
+    }
+    public  Product deleteProductById(Integer proID){
+        return productRepo.findById(proID).get();
+    }
+    public void deleteProductByCont(Product product){
+          productRepo.delete(product);
+
     }
 }
