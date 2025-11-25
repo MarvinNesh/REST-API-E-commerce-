@@ -1,4 +1,4 @@
-package com.marvin.WebApp.service;
+package com.marvin.WebApp.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
