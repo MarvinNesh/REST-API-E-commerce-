@@ -2,6 +2,7 @@ package com.marvin.WebApp.model;
 
 
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -23,6 +24,7 @@ public class Product {
     private String name;
     private String description;
     private BigDecimal price;
+    @JsonFormat(shape =  JsonFormat.Shape.STRING, pattern = "dd-mm-yyyy")
     private Date releaseDate;
     private boolean available;
     private String category;
