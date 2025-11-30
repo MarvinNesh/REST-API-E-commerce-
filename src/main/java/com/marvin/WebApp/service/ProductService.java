@@ -17,8 +17,7 @@ public class ProductService {
 
     }
     public Product getProductById(Integer proID) {
-        return productRepo.findById(proID)
-                .orElseThrow(() ->  new ProductNotFoundException("Product not found with ID: " + proID));
+        return productRepo.findById(proID).get();
 
     }
 
