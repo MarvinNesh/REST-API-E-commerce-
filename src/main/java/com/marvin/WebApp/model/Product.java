@@ -30,6 +30,7 @@ public class Product {
     private String category;
     private String brand;
     private String quantity;
+    //using db images instead of cloud
     private String imageName;
     private String imageUrl;
     private Byte[] image;
