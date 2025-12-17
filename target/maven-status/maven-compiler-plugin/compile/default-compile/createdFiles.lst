@@ -1,0 +1,8 @@
+com/marvin/WebApp/WebAppApplication.class
+com/marvin/WebApp/repo/ProductRepo.class
+com/marvin/WebApp/model/Product.class
+com/marvin/WebApp/exception/GlobalExceptionHandler.class
+com/marvin/WebApp/exception/ProductNotFoundException.class
+com/marvin/WebApp/dto/ProductRequest.class
+com/marvin/WebApp/service/ProductService.class
+com/marvin/WebApp/controller/ProductController.class

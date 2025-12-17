@@ -1,0 +1,8 @@
+/home/vhuhwavho/REST-API-E-commerce-/src/main/java/com/marvin/WebApp/WebAppApplication.java
+/home/vhuhwavho/REST-API-E-commerce-/src/main/java/com/marvin/WebApp/controller/ProductController.java
+/home/vhuhwavho/REST-API-E-commerce-/src/main/java/com/marvin/WebApp/dto/ProductRequest.java
+/home/vhuhwavho/REST-API-E-commerce-/src/main/java/com/marvin/WebApp/exception/GlobalExceptionHandler.java
+/home/vhuhwavho/REST-API-E-commerce-/src/main/java/com/marvin/WebApp/exception/ProductNotFoundException.java
+/home/vhuhwavho/REST-API-E-commerce-/src/main/java/com/marvin/WebApp/model/Product.java
+/home/vhuhwavho/REST-API-E-commerce-/src/main/java/com/marvin/WebApp/repo/ProductRepo.java
+/home/vhuhwavho/REST-API-E-commerce-/src/main/java/com/marvin/WebApp/service/ProductService.java
